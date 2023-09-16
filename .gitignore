@@ -109,3 +109,5 @@ package-lock.json
 package.json
 src/
 rsschool-cv/
+*css.map
+*min.css
