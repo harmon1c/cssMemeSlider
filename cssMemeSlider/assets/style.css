@@ -326,9 +326,9 @@ body {
   width: 3.125em;
   height: 3.125em;
   opacity: 0.4;
-  -webkit-transition: opacity 0.3s ease-out;
-  -o-transition: opacity 0.3s ease-out;
-  transition: opacity 0.3s ease-out;
+  -webkit-transition: opacity 0.4s ease-out;
+  -o-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
 }
 
 .controls label:hover {
@@ -348,9 +348,9 @@ body {
   margin-top: -0.5rem;
   border-radius: 100%;
   background: transparent;
-  -webkit-transition: background-color 0.2s ease-in-out;
-  -o-transition: background-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
 }
 
 #slide1:checked ~ .controls label:nth-child(2),
@@ -391,11 +391,11 @@ body {
   background: #ccc;
   margin: 0 0.75rem;
   cursor: pointer;
-  -webkit-transition: background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  -o-transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+  -o-transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 
 .bullets label:hover {
