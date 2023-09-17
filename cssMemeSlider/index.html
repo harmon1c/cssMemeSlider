@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="assets/style.css"/>
     <title>cssMemeSlider</title>
 </head>
-<body>
+<body class="body">
     <div class="meme-slider">
         <input type="radio" name="slider" id="slide1" checked>
         <input type="radio" name="slider" id="slide2">
@@ -15,9 +15,9 @@
         <div class="meme-slides">
            <div class="overflow">
               <div class="inner">
-                 <div class="slide slide_1">
+                <div class="slide slide_1">
                     <div class="slide-content">
-                        <p>img 1</p>
+                        <img class="meme" src="/cssMemeSlider/assets/img/1.jpg" alt="">
                     </div>
                 </div>
                  <div class="slide slide_2">
@@ -27,34 +27,35 @@
                 </div>
                  <div class="slide slide_3">
                     <div class="slide-content">
-                        <p>img 3</p>
+                        <img class="meme" src="/cssMemeSlider/assets/img/3.jpg" alt="">
                     </div>
                 </div>
                  <div class="slide slide_4">
                     <div class="slide-content">
+                        <img class="meme" src="/cssMemeSlider/assets/img/4.jpg" alt="">
                     </div>
                 </div>
-              </div>
-           </div>
+            </div>
         </div>
-        <div class="slide-captions">
-            <h2 class="caption caption_1">Slide 1</h2>
-            <h2 class="caption caption_2">Slide 2</h2>
-            <h2 class="caption caption_3">Slide 3</h2>
-            <h2 class="caption caption_4">Slide 4</h2>
-        </div>
-        <div class="controls">
-           <label for="slide1"></label>
-           <label for="slide2"></label>
-           <label for="slide3"></label>
-           <label for="slide4"></label>
-        </div>
-        <div class="bullets">
-           <label for="slide1"></label>
-           <label for="slide2"></label>
-           <label for="slide3"></label>
-           <label for="slide4"></label>
-        </div>
-     </div>
+    </div>
+    <div class="bullets">
+        <label for="slide1"><div class="control"></div></label>
+        <label for="slide2"><div class="control"></div></label>
+        <label for="slide3"><div class="control"></div></label>
+        <label for="slide4"><div class="control"></div></label>
+    </div>
+    <div class="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+    </div>
+    <div class="slide-captions">
+        <h2 class="caption caption_1">Bracket 1 : 0 Programmer</h2>
+        <h2 class="caption caption_2">You fix ONLY if it doesn't work...</h2>
+        <h2 class="caption caption_3">Cosplay superstar.</h2>
+        <h2 class="caption caption_4">Choose you fighter!</h2>
+    </div>
+</div>
 </body>
 </html>
