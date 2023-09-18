@@ -62,8 +62,8 @@ body {
 
 body {
   font-family: "Inter", sans-serif;
-  font-size: 15px;
-  line-height: 40px;
+  font-size: 0.9375rem;
+  line-height: 2.5rem;
   font-style: normal;
   font-weight: 400;
   overflow-x: hidden;
@@ -485,4 +485,4 @@ body {
     margin-top: -0.5rem;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
