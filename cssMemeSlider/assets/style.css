@@ -400,6 +400,7 @@ body {
 
 .bullets label:hover {
   background-color: #888;
+  border: 2px solid #c9c9c9;
 }
 
 .bullets input[type=radio]:checked + label {
@@ -411,9 +412,9 @@ body {
 }
 
 .bullets input[type=radio]:checked + label {
-  -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
   background-color: #444;
 }
 
@@ -484,4 +485,4 @@ body {
     margin-top: -0.5rem;
   }
 }
-
+/*# sourceMappingURL=style.css.map */
