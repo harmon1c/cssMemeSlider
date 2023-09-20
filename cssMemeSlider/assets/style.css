@@ -3,12 +3,6 @@ html {
           box-sizing: border-box;
 }
 
-*,
-*::after,
-*::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
 
 ul[class],
 ol[class] {
